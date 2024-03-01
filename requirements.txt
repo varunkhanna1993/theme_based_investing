@@ -1,0 +1,10 @@
+numpy
+pandas
+yfinance
+vaderSentiment
+nltk
+scipy
+matplotlib
+scikit-learn
+xgboost
+pyfolio

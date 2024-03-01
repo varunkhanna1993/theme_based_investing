@@ -6,7 +6,7 @@ Is there an ideal strategy for mom-and-pop investors to trade stocks effectively
 
 ## Solution Overview 🔍
 
-Using data from financial modeling prep's API, transformed and stored in Snowflake, this project employs a Python script to fetch, analyze, and visualize stock performance over the last six years. The data fetched is then transformed within snowflake to use its compute, which can scale for a data product. The core of our strategy revolves around selecting the top-ranked companies each quarter based on their return on capital and earnings yield, a proxy for Greenblatt's Magic Formula.
+Using data from financial modeling prep's API, transformed and stored in Snowflake, this project employs a Python script to fetch, analyze, and visualize stock performance over the last six years. The data fetched is then transformed within snowflake to use its compute, which can scale for a data product. The core of our strategy revolves around selecting the top-ranked companies each quarter based on their return on capital and earnings yield, a proxy for Greenblatt's Magic Formula. Go to file thematic_investment.ipynb as it contains the main logic proposing a solution.
 
 ### Key Highlights 🌟
 

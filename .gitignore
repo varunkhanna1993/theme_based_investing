@@ -3,7 +3,9 @@
 myenv/*
 misc/*
 dump/*
-
+myenv/
+misc/
+dump/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

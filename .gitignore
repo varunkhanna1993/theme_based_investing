@@ -1,3 +1,10 @@
+# all files and folders I want to ignore
+.env
+myenv/*
+misc/*
+dump/*
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

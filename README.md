@@ -6,12 +6,12 @@ Is there an ideal strategy for mom-and-pop investors to trade stocks effectively
 
 ## Solution Overview 🔍
 
-Using data from financial modeling prep's API, transformed and stored in Snowflake, this project employs a Python script to fetch, analyze, and visualize stock performance over the last six years. The data fetched is then transformed within snowflake to use its compute, which can scale for a data product. The core of our strategy revolves around selecting the top-ranked companies each quarter based on their return on capital and earnings yield, a proxy for Greenblatt's Magic Formula.
+Using data from financial modeling prep's API, transformed and stored in Snowflake, this project employs a Python script to fetch, analyze, and visualize stock performance over the last six years. The data fetched is then transformed within snowflake to use its compute, which can scale for a data product. The core of our strategy revolves around selecting the top-ranked companies each quarter based on their return on capital and earnings yield, a proxy for Greenblatt's Magic Formula. Go to file thematic_investment.ipynb as it contains the main logic proposing a solution.
 
 ### Key Highlights 🌟
 
 - **Data Acquisition and Transformation:** Leveraged Snowflake for data storage and manipulation, ensuring a robust and scalable data pipeline. This could further be automated using Airflow or Astronomer to automate and run daily to get updated data from FMP's API!
-- **Universe Selection:** Employed a quantitative approach to filter and rank companies based on financial metrics, focusing on a universe of stocks that offer the best potential for returns.
+- **Universe Selection:** Employed a quantitative approach to filter and rank companies based on financial metrics, focusing on a universe of stocks that offer the best potential for returns. As such we have taken all the S&P 500 companies that ever existed in the last 6 years reducing the Survivorship Bias.
 - **Strategy Measurement:** Analyzed the returns using key financial metrics such as Sharpe ratio, Returns, Max Drawdown,etc to assess performance and risk.
 - **Simplicity and Accessibility:** Despite the complex statistical techniques, the project emphasizes simplicity and accessibility, making it easier for mom-and-pop investors to understand and apply the findings.
 

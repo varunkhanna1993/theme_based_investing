@@ -19,8 +19,7 @@ Using data from financial modeling prep's API, transformed and stored in Snowfla
 
 The strategy, inspired by Greenblatt's Magic Formula, showcases an annualized return that outperforms the market benchmark, indicating its potential effectiveness for individual investors. Risk metrics, including volatility and max drawdown, provide a comprehensive view of the strategy's risk profile, suggesting a higher risk-reward ratio.
 You can see the returns vs S&P 500 for the backtest period here.
-![returns_strategy_vs_sp500][returns_strategy_image]
-[returns_strategy_image]: returns_strategy_vs_sp500.png
+![returns_strategy_vs_sp500][https://github.com/varunkhanna1993/theme_based_investing/blob/main/returns_streategy_vs_sp500.png?raw=true]
 
 
 ## Conclusion and Future Work 🔮

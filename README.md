@@ -18,7 +18,9 @@ Using data from financial modeling prep's API, transformed and stored in Snowfla
 ## Results and Analysis 📊
 
 The strategy, inspired by Greenblatt's Magic Formula, showcases an annualized return that outperforms the market benchmark, indicating its potential effectiveness for individual investors. Risk metrics, including volatility and max drawdown, provide a comprehensive view of the strategy's risk profile, suggesting a higher risk-reward ratio.
+You can see the returns vs S&P 500 for the backtest period here.
 
+![alt_text][returns_strategy_vs_sp500.png]
 ## Conclusion and Future Work 🔮
 
 The thematic investment strategy offers a promising avenue for mom-and-pop investors, combining sound financial principles with accessible data science techniques. Future enhancements could include integrating machine learning models to refine stock selection and improve risk-adjusted returns.

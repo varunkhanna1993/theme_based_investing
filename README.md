@@ -26,7 +26,7 @@ You can see the returns vs S&P 500 for the backtest period. [Click here for the 
 | Absolute Returns(%) | 193.528921    |
 | Sharpe Ratio        | 0.725566      |
 | Max Drawdown(%)     | -28.251780    |
-| Volatility(%)       | 0.231572      |
+| Volatility(%)       | 23.1572      |
 | Backtest (Years)    | 6             |
 
 ## Conclusion and Future Work 🔮
